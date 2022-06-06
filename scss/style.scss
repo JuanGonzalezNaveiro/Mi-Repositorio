@@ -1,5 +1,21 @@
-grid-container{
-    parte-izquierda{
-        margin: 30px;
-    }
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+}
+
+.column{
+    flex: 25%;
 }
